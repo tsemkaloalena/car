@@ -44,8 +44,6 @@ class Car(pygame.sprite.Sprite):
 
 
 all_sprites = pygame.sprite.Group()
-img = load_image("car2.png")
-img = pygame.transform.scale(img, image_size)
 
 im = Car(all_sprites)
 running = True
